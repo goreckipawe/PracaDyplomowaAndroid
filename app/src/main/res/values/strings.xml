@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">PracaIdemo2</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_wiadomosci">Wiadomosci</string>
+    <string name="title_activity_wiadomosc_wysylanie">Wiadomosc_wysylanie</string>
+    <string name="title_activity_dokumenty">Dokumenty</string>
+    <string name="title_activity_zasoby">Zasoby</string>
+    <string name="title_activity_informacje">Informacje</string>
+    <string name="title_activity_pracownicy">Pracownicy</string>
+    <string name="title_activity_srodki">Srodki</string>
+    <string name="title_activity_wiadomosc_otworz">Wiadomosc_otworz</string>
+    <string name="title_activity_pracownik_otworz">Pracownik_otworz</string>
+    <string name="title_activity_srodki_otworz">Srodki_otworz</string>
+    <string name="spiner_zasobyrow_prompt">jjjjjjjj</string>
+</resources>

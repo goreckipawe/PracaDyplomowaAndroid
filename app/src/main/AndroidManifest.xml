@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pawe.pracaidemo2">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher4"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Logowanie"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Wiadomosci"
+            android:label="@string/title_activity_wiadomosci"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wiadomosc_wysylanie"
+            android:label="@string/title_activity_wiadomosc_wysylanie"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Dokumenty"
+            android:label="@string/title_activity_dokumenty"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Zasoby"
+            android:label="@string/title_activity_zasoby"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Informacje"
+            android:label="@string/title_activity_informacje"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pracownicy"
+            android:label="@string/title_activity_pracownicy"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Srodki"
+            android:label="@string/title_activity_srodki"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Wiadomosc_otworz"
+            android:label="@string/title_activity_wiadomosc_otworz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pracownik_otworz"
+            android:label="@string/title_activity_pracownik_otworz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Srodki_otworz"
+            android:label="@string/title_activity_srodki_otworz"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_srodki_otworz"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

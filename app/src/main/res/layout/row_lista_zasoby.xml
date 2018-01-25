@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menu_tlo"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/zasoby_model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:textColor="@color/menu_text"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.02">
+
+        <TextView
+            android:id="@+id/zasoby_marka"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView"
+            android:textColor="@color/menu_text"
+            android:textSize="18sp" />
+
+        <CheckBox
+            android:id="@+id/zasoby_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.23"
+            android:textColor="@color/menu_text"
+            android:buttonTint="@color/menu_text" />
+    </LinearLayout>
+
+    <Spinner
+        android:id="@+id/zasoby_stan"
+        android:layout_width="360dp"
+        android:layout_height="34dp"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:background="@color/przycisk"
+        android:popupBackground="@color/przycisk" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/usun_zasob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.Button"
+            android:layout_weight="1"
+            android:text="Usuń zasób" />
+
+        <Button
+            android:id="@+id/pokaz_zasob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.Button"
+            android:layout_weight="1"
+            android:text="Pokaż zasób" />
+
+    </LinearLayout>
+
+</LinearLayout>

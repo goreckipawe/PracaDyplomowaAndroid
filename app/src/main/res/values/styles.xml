@@ -1,0 +1,35 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/menu_text</item>
+        <item name="android:spinnerDropDownItemStyle">@style/Spinner</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="menu_tytul">
+        <item name="android:textColor">#d8d4d4</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="AppTheme.Button"  parent="Widget.AppCompat.Button.Borderless">
+        <item name="colorButtonNormal">@color/przycisk</item>
+        <item name="android:textColor">@color/menu_text</item>
+    </style>
+
+    <style name="Spinner" parent="@android:style/Widget.Holo.DropDownItem.Spinner">
+        <item name="android:textColor">@color/menu_text</item>
+    </style>
+
+</resources>

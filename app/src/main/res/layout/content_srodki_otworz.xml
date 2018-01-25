@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/menu_tlo"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.pawe.pracaidemo2.Srodki_otworz"
+    tools:showIn="@layout/app_bar_srodki_otworz">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marka"
+            android:paddingTop="8dp"
+            android:textAlignment="center"
+            android:textColor="@color/menu_text"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/z_marka"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="TextView"
+            android:paddingTop="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="Marka"
+            android:paddingTop="8dp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/z_model"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="TextView"
+            android:paddingTop="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="Rok"
+            android:paddingTop="8dp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/z_rok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="TextView"
+            android:paddingTop="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="Rok zakupu"
+            android:paddingTop="8dp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/z_rok_zakupu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="TextView"
+            android:paddingTop="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="Pojemność"
+            android:paddingTop="8dp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/z_pojemnosc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="TextView"
+            android:paddingTop="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="Przebieg"
+            android:paddingTop="8dp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/z_przebieg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="TextView"
+            android:paddingTop="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="Numer referencyjny"
+            android:paddingTop="8dp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/z_numer_rejestracyjny"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="TextView"
+            android:paddingTop="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="Ubezpieczenie"
+            android:paddingTop="8dp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/z_ubezpieczenie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="TextView"
+            android:paddingTop="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="Stan"
+            android:paddingTop="8dp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/z_uszkodzony"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="TextView"
+            android:paddingTop="8dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/textView39"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="Id"
+            android:paddingTop="8dp"
+            android:textAlignment="center"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/z_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/menu_text"
+            android:text="TextView"
+            android:paddingTop="8dp"
+            android:textAlignment="center" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

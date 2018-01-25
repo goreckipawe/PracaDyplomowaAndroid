@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_ekran_glowny"
+            android:icon="@drawable/ic_ekran_glowny_menu"
+            android:title="Ekran główny" />
+        <item
+            android:id="@+id/nav_wiadomosci"
+            android:icon="@drawable/ic_wiadomosc_menu"
+            android:title="Wiadomości" />
+        <item
+            android:id="@+id/nav_wiadomosc_wysylanie"
+            android:icon="@drawable/ic_wysylanie_menu"
+            android:title="Wyślij wiadomość" />
+        <item
+            android:id="@+id/nav_dokumenty"
+            android:icon="@drawable/ic_dokumenty_menu"
+            android:title="Dokumenty" />
+        <item
+            android:id="@+id/nav_zasoby"
+            android:icon="@drawable/ic_zasoby_menu"
+            android:title="Zasoby" />
+    </group>
+
+    <item android:title="Informacje" android:id="@+id/informacja">
+        <menu>
+            <item
+                android:id="@+id/nav_informacje"
+                android:icon="@drawable/ic_informacje_menu"
+                android:title="O aplikacji" />
+        </menu>
+    </item>
+
+    <item android:title="Wyjście" android:id="@+id/wyjdz">
+        <menu>
+            <item
+                android:id="@+id/nav_zamknij"
+                android:icon="@drawable/ic_menu_wyjscie"
+                android:title="Zamknij" />
+        </menu>
+    </item>
+
+</menu>

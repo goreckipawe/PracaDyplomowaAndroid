@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#383838</color>
+    <color name="colorPrimaryDark">#5e5e5e</color>
+    <color name="colorAccent">#6a3c3c</color>
+    <color name="menu_tlo">#1d1d1d</color>
+    <color name="menu_text">#d8d4d4</color>
+    <color name="przycisk">#7a7a7a</color>
+    <color name="red">#ce2b2b</color>
+</resources>
